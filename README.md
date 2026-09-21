@@ -1,8 +1,8 @@
-Vending Machine Controller Simulator
+**Vending Machine Controller Simulator**
 
-A simple Java-based Vending Machine Controller Simulator that demonstrates how a basic vending machine works through a console interface.
+A simple **Java-based Vending Machine Controller Simulator** that demonstrates how a basic vending machine works through a console interface.
 
-Features
+**Features**
 
 Display available products, prices, and stock
 
@@ -22,14 +22,14 @@ Track and display sales statistics
 
 Handle invalid product selections
 
-Products
+**Products**
 ID	Product	Price	Stock
 1	Chips	₹20	10
 2	Chocolate	₹30	8
 3	Soft Drink	₹40	10
 4	Biscuit	₹15	12
 5	Juice	₹25	10
-Technologies
+**Technologies**
 
 Java
 
@@ -37,18 +37,18 @@ Java Scanner
 
 Console-based interface
 
-How to Run
+**How to Run**
 
-Make sure JDK is installed, then open the project folder in a terminal.
+Make sure **JDK** is installed, then open the project folder in a terminal.
 
 javac VendingMachine.java
 java VendingMachine
 
-Example
+**Example**
 
 The user selects a product, enters the payment amount, and the machine checks the payment. If the amount is sufficient, the product is dispensed and the change is calculated.
 
-Future Improvements
+**Future Improvements**
 
 GUI interface
 
@@ -60,6 +60,5 @@ Receipt generation
 
 Admin inventory management
 
-Author
-
+**Author**
 Akash Ganti
