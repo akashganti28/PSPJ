@@ -1,210 +1,65 @@
-# Vending Machine Controller Simulator
+Vending Machine Controller Simulator
 
-A simple *Java-based Vending Machine Controller Simulator* that demonstrates the basic working of an automated vending machine through a console-based interface.
+A simple Java-based Vending Machine Controller Simulator that demonstrates how a basic vending machine works through a console interface.
 
-The simulator allows users to view available products, select a product, make a payment, receive change, and view sales statistics.
+Features
 
-## Features
+Display available products, prices, and stock
 
-* Display available products
-* Display product prices and stock
-* Select a product
-* Check product availability
-* Accept user payment
-* Handle insufficient payment
-* Calculate and display change
-* Update product stock after purchase
-* Track products sold
-* Display sales statistics
-* Handle invalid product selections
-* Handle invalid payment amounts
-* Exit the vending machine safely
+Select and purchase products
 
-## Technologies Used
+Check product availability
 
-* *Java*
-* *Java Scanner* for user input
-* Console-based user interface
+Accept and validate payments
 
-## How It Works
+Handle insufficient or invalid payments
 
-The simulator follows a simple sequence:
+Calculate and display change
 
-text
-Display Products
-       ↓
-Select Product
-       ↓
-Check Availability
-       ↓
-Enter Payment
-       ↓
-Verify Payment
-       ↓
-Dispense Product
-       ↓
-Calculate Change
-       ↓
-Update Stock
-       ↓
-Display Transaction Result
+Update product stock after purchases
 
+Track and display sales statistics
 
-## Products
+Handle invalid product selections
 
-The simulator contains the following sample products:
+Products
+ID	Product	Price	Stock
+1	Chips	₹20	10
+2	Chocolate	₹30	8
+3	Soft Drink	₹40	10
+4	Biscuit	₹15	12
+5	Juice	₹25	10
+Technologies
 
-| ID | Product    | Price | Initial Stock |
-| -: | ---------- | ----: | ------------: |
-|  1 | Chips      |   ₹20 |            10 |
-|  2 | Chocolate  |   ₹30 |             8 |
-|  3 | Soft Drink |   ₹40 |            10 |
-|  4 | Biscuit    |   ₹15 |            12 |
-|  5 | Juice      |   ₹25 |            10 |
+Java
 
-## Main Menu
+Java Scanner
 
+Console-based interface
 
-----------------------------------------------
-       VENDING MACHINE CONTROLLER
-----------------------------------------------
+How to Run
 
---------------- MAIN MENU ----------------
-1. Display Products
-2. Buy Product
-3. Sales Statistics
-4. Exit
-------------------------------------------
-Enter your choice:
+Make sure JDK is installed, then open the project folder in a terminal.
 
-
-## Example Transaction
-
-If the user selects Chocolate costing ₹30 and inserts ₹50:
-
-
-You selected: Chocolate
-Price: ₹30.00
-
-Insert money: ₹50
-
-----------------------------------------------
-           TRANSACTION SUCCESSFUL
-----------------------------------------------
-Product       : Chocolate
-Price         : ₹30.00
-Amount Paid   : ₹50.00
-Change        : ₹20.00
-----------------------------------------------
-Please collect your Chocolate.
-Thank you!
-----------------------------------------------
-
-
-## Error Handling
-
-The simulator handles common situations such as:
-
-* Invalid product ID
-* Product out of stock
-* Insufficient payment
-* Zero or negative payment amount
-
-Example:
-
-text
-Enter product ID: 8
-
-Invalid product ID!
-
-
-## Sales Statistics
-
-The simulator keeps track of the number of products sold and displays basic sales information.
-
-Example:
-
-
----------------------------------------------
-             SALES STATISTICS
----------------------------------------------
-Total items sold: 3
-Different products sold: 2
-Average items sold per product: 0.60
-
-Items sold by product:
-Chips : 1
-Chocolate : 2
-Soft Drink : 0
-Biscuit : 0
-Juice : 0
----------------------------------------------
-
-
-## Project Structure
-
-text
-Vending-Machine-Controller-Simulator/
-│
-├── VendingMachine.java
-└── README.md
-
-
-## Requirements
-
-* Java Development Kit (JDK)
-* Any Java-supported IDE or text editor
-* Command Prompt / Terminal
-
-## How to Run
-
-### 1. Clone the repository
-
-bash
-git clone <your-repository-url>
-
-
-### 2. Open the project directory
-
-bash
-cd Vending-Machine-Controller-Simulator
-
-
-### 3. Compile the program
-
-bash
 javac VendingMachine.java
-
-
-### 4. Run the program
-
-bash
 java VendingMachine
 
+Example
 
-## Project Objectives
+The user selects a product, enters the payment amount, and the machine checks the payment. If the amount is sufficient, the product is dispensed and the change is calculated.
 
-* Simulate the basic operation of a vending machine.
-* Manage product selection and availability.
-* Process user payments and calculate change.
-* Maintain product stock information.
-* Track basic sales statistics.
-* Demonstrate problem-solving and programming concepts through a practical application.
+Future Improvements
 
-## Future Improvements
+GUI interface
 
-Possible future enhancements include:
+UPI payment simulation
 
-* Graphical user interface
-* Digital/UPI payment simulation
-* Administrator inventory management
-* Receipt generation
-* Transaction history
-* More products and categories
-* Connection with physical vending machine hardware
+Transaction history
 
-## Author
+Receipt generation
 
-*Akash Ganti*
+Admin inventory management
 
-If you found this project useful, feel free to ⭐ the repository.
+Author
+
+Akash Ganti
