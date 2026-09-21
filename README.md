@@ -23,12 +23,8 @@ Track and display sales statistics
 Handle invalid product selections
 
 **Products**
-ID	Product	Price	Stock
-1	Chips	₹20	10
-2	Chocolate	₹30	8
-3	Soft Drink	₹40	10
-4	Biscuit	₹15	12
-5	Juice	₹25	10
+<img width="700" height="311" alt="image" src="https://github.com/user-attachments/assets/48f78066-fac2-40aa-8053-c1e5ecfd3518" />
+
 **Technologies**
 
 Java
