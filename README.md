@@ -23,6 +23,7 @@ Track and display sales statistics
 Handle invalid product selections
 
 **Products**
+
 <img width="700" height="311" alt="image" src="https://github.com/user-attachments/assets/48f78066-fac2-40aa-8053-c1e5ecfd3518" />
 
 **Technologies**
